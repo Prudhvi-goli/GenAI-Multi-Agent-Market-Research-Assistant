@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Logs
+*.log
+
+# HuggingFace transformers cache
+cache/
+transformers_cache/
+
+# Any compiled libraries
+*.so
+
+# Uvicorn logs
+*.pid
+
+# Pytest cache
+.pytest_cache/
+
+# mypy type checking cache
+.mypy_cache/
+
+# General temporary files
+*.tmp
+*.temp

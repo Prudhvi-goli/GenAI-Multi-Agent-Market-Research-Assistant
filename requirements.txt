@@ -1,0 +1,18 @@
+# Core dependencies
+numpy==1.23.5
+torch>=2.0.0
+streamlit
+google-search-results
+beautifulsoup4
+python-dotenv
+huggingface-hub
+
+
+# Search and LLM agents
+transformers
+serpapi
+requests
+
+# Testing
+pytest
+httpx
