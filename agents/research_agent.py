@@ -115,5 +115,5 @@ def run_research_agent(query: str) -> str:
 
 # Test run
 if __name__ == "__main__":
-    print("🔎 Testing Research Agent with 'Tesla'")
+    print("Testing Research Agent with 'Tesla'")
     print(run_research_agent("Tesla"))
