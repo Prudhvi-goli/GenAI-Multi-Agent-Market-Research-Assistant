@@ -44,7 +44,7 @@ def fetch_resources(use_cases):
     def fetch_for_use_case(use_case):
         title_line = next((line for line in use_case.split("\\n") if line.lower().startswith("title:")), None)
         query = clean_query(title_line) if title_line else "genai ai use case"
-        print(f"🔍 Searching for: {query}")
+        print(f"Searching for: {query}")
         links = serpapi_search(query)
         return query, links
 
@@ -63,6 +63,6 @@ if __name__ == "__main__":
     ]
     results = fetch_resources(dummy_use_cases)
     for q, links in results.items():
-        print(f"\n🔗 Results for {q}:")
+        print(f"\n Results for {q}:")
         for link in links:
             print(f"  - {link['title']}: {link['url']}")
